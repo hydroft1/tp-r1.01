@@ -1,12 +1,20 @@
+/*
+ Programme : Somme des entiers sur un intervalle
+ But : Calcul la somme des entiers compris entre 1 et une borne donnée
+ Date de dernière modification : 26/09/2024
+ Auteur : A. Marquet
+ Remarques :
+*/
+
 #include <iostream>
 using namespace std;
 
 int main(void)
 {
     // Variables
-    double borne;
-    double somme;
-    int i;
+    unsigned int borne; // 
+    unsigned int somme; //
+    unsigned int i; // 
 
     // Saisir borne
     cout << "Entrez la borne : ";
