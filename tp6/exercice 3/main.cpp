@@ -1,5 +1,5 @@
 /*
- Programme :Afficher des lignes composées d'étoiles 
+ Programme :Afficher des lignes composées de 5 étoiles 
  But : Affiche n lignes d'étoiles renseignées par l'utilisateur
  Date de dernière modification : 27/09/2024
  Auteur : A. Marquet
@@ -20,7 +20,7 @@ int main(void)
     cin >> nbLignes;
 
     // Afficher le nombre de lignes
-    for (i = 0; i < nbLignes; i++)
+    for (i = 1; i <= nbLignes; i++)
     {
         cout << "*****" << endl;
     }
