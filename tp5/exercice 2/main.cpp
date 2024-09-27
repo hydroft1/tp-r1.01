@@ -14,7 +14,7 @@ using namespace std;
 int main(void) 
 {
     // Variables
-    double note;
+    double note; // note renseignée par l'utilisateur
 
     // Saisir une note
     cout << "Entrez une note comprise entre 0 et 20 :";
