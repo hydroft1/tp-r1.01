@@ -2,18 +2,18 @@
     "tasks": [
         {
             "type": "cppbuild",
-            "label": "C/C++: g++.exe générer le fichier actif",
-            "command": "g++.exe",
+            "label": "C/C++: g++ générer le fichier actif",
+            "command": "g++",
             "args": [
-			    "-g",
+                "-g",
                 "-Wall",
                 "-Wextra",
                 "-Wpedantic",
                 "-Wconversion",
-				"-fexceptions",
-                "${fileDirname}\\*.cpp",
+                "-fexceptions",
+                "\"${file}\"",  // Utilise directement le fichier ouvert
                 "-o",
-                "${fileDirname}\\${fileBasenameNoExtension}.exe"
+                "${fileDirname}/${fileBasenameNoExtension}.exe"  // Fichier de sortie
             ],
             "options": {
                 "cwd": ""
