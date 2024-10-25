@@ -24,6 +24,9 @@ int main(void)
     cout << "Entrez l'indice de la deuxième case : ";
     cin >> indice2;
 
+    // Appel du sous-programme
+    echanger(tab, indice1, indice2);
+
     for (int i = 0; i < 5; i++)
     {
         cout << tab[i] << " ";
