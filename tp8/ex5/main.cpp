@@ -9,18 +9,18 @@ Auteur : Alexandre M.
 using namespace std;
 
 // Déclaration sous-programme
-void compterValPos(const int tab[], unsigned int nbCases, unsigned int & totalValPos);
+void compterValPos(const int tab[], unsigned int nbCases, unsigned int &totalValPos);
 // BUT : Compte les valeurs positives d'un tableau tab, de taille prédéfinie à nbCases, dans totalValPos
 
 int main(void)
 {
     // Variables
-    int tab[5] = {1, 2, 3, 4, 5};
-    unsigned int nbCases = 5;
+    int tab[10] = {1, 2, 3, 4, -5, 1, -3, 4, 2, 3};
+    const unsigned int NB_CASES = 10;
     unsigned int totalValPos;
 
     // Appel sous-programme
-    compterValPos(tab, nbCases, totalValPos);
+    compterValPos(tab, NB_CASES, totalValPos);
 
     cout << totalValPos << endl;
 
@@ -28,7 +28,7 @@ int main(void)
 }
 
 // définition sous-programme
-void compterValPos(const int tab[], unsigned int nbCases, unsigned int & totalValPos)
+void compterValPos(const int tab[], unsigned int nbCases, unsigned int &totalValPos)
 {
     totalValPos = 0;
     for (unsigned int i = 0; i < nbCases; i++)

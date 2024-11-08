@@ -1,0 +1,5 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/alexandre/Documents/App/tp-r1.01/tp9/adressePersonne/main.exe'
+relocations:     []
+...
